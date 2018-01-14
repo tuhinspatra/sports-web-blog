@@ -1,0 +1,7 @@
+{
+  "require" : {
+    "facebook/php-sdk-v4": "~5.5@dev",
+    "google/apiclient": "^2.0",
+    "froala/wysiwyg-editor-php-sdk" : ""
+  }
+}

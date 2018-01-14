@@ -1,0 +1,196 @@
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+
+
+body{
+  height: 100%;
+  background: url(../assets/img/full-bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,1.0);
+          box-shadow: inset 0 0 100px rgba(0,0,0,1.0);
+}
+
+#page {
+	margin:5% 5%;
+}
+#outer-container {
+	
+	background-color: rgba(0,0,0,.9);
+	color: white;
+	max-width: 1260px;
+	size: 90vw;
+	margin: 120px auto;
+	padding: 58px 16px;
+	border-radius: 120px 70px;
+	 -moz-border-radius: 120px 70px;
+	 -webkit-border-radius: 120px 70px;
+	-moz-box-shadow: 0 0 15px #000;
+	 -webkit-box-shadow: 0 0 15px #000;
+	 box-shadow: 0 0 15px #000;
+}
+.full-head {
+    position: fixed;
+    top: -9px;
+    left:0px;
+    width:100%;
+	z-index: 6;
+	background: rgba(0,0,0,0.8);
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+
+/*
+ * Header
+ */
+.masthead-brand {
+	font-weight: bolder;
+	
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+
+
+
+
+#inputTitle, #inputTopic{
+	border: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: none;
+	margin: 8px;
+}
+input:focus {
+	outline-width: 0;
+}
+#above-editor {
+	padding: 8px;
+}
+#inputTitle {
+	width: 100%;
+
+	border-bottom: blue 2px solid;
+	font-size: 2em;
+	
+}
+#inputTopic {
+
+	width:80%; 
+	display: inline;
+	
+}
+#outer-banner {
+
+	 width: 100%;
+}
+#controls {
+	float: right;
+	text-align: right;
+	
+}
+span.btn-group {
+	padding: 4px;
+}
+#select {
+	float: right;
+}
+
+#editor-main {
+
+
+}
+/*[contenteditable=true]:empty::before{
+  content: attr(data-placeholder);
+  display: block;
+}*/
+div[contenteditable=true]{
+	height: 80vh;
+
+}
+.checktext {
+	float: left;
+	margin:10px;
+}
+.checkbox {
+	display: inline;
+	transform: scale(2);
+    -ms-transform: scale(2);
+    -webkit-transform: scale(2);
+    padding: 10px;
+}
+#checkbox-text {
+	margin-left: 16px;
+	font-size: 1.2em;
+	display: inline;
+}
+

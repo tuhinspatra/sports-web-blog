@@ -1,0 +1,74 @@
+h3 {
+  display: inline-block;
+  padding: 10px;
+  background: #B9121B;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.masthead-brand {
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  font-weight: bolder;
+  border-top-right-radius: 0px 0px;
+  border-bottom-right-radius: 30px 20px;
+  border-top-left-radius:0px 0px; 
+  border-bottom-left-radius:0px 0px; 
+  
+}
+.left-head {
+  float:left;
+
+}
+.right-head{
+  margin: 2em 30px;
+  float: right;
+  background: rgba(0,0,0,0.2) !important;
+  padding-top: 10px;
+  padding-right: 30px;
+}
+.right-head li {
+  display: inline;
+  margin:0px 10px;
+}
+.right-head li a {
+  text-decoration: none;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 3px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+p.lead:first-letter {
+
+   font-size: 200%;
+}
+
+@media (max-width: 500px) {
+  nav .masthead-nav {
+    float:left;
+  }
+  
+}
